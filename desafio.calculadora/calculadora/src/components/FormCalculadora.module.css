@@ -1,0 +1,73 @@
+body {
+  background-color: #f5f6f8;
+}
+
+.formContainer {
+  width: 350px;
+  margin: 50px auto;
+  padding: 30px;
+  background-color: #ffffff;
+  border-radius: 15px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+.formContainer h2 {
+  text-align: center;
+  margin-bottom: 25px;
+  color: #000000;
+}
+
+.numero,
+.operacao {
+  margin-bottom: 15px;
+}
+
+.numero input,
+.operacao select {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 16px;
+  box-sizing: border-box;
+  background-color: #000000;
+}
+
+.btn {
+  display: flex;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.btn input {
+  flex: 1;
+  padding: 12px;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.btn input[type="submit"] {
+  background-color: #ff0909;
+  color: white;
+}
+
+.btn input[type="button"] {
+  background-color: #750909;
+  color: white;
+}
+
+.resultado {
+  margin-top: 20px;
+  padding: 12px;
+  background-color: white;
+  border-radius: 8px;
+  text-align: center;
+  font-weight: bold;
+  color: #333;
+}
+
+.numero input::placeholder {
+  color: #ff0707;
+}
